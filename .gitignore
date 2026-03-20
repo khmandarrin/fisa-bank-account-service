@@ -1,0 +1,27 @@
+# Build
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# Gradle
+.gradle/
+
+# Application
+application.yaml
+application.yml
+application.properties
+application-*.yaml
+application-*.yml
+application-*.properties
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log

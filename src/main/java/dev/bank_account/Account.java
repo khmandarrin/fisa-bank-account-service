@@ -19,8 +19,8 @@ public class Account {
     @Column(nullable = false, unique = true, length = 20)
     private String accountNo;
 
-    @Column(nullable = false, length = 50)
-    private String holderName;
+    @Column(nullable = false, length = 3)
+    private String bankCode;
 
     @Column(nullable = false, precision = 15, scale = 2)
     private BigDecimal balance;
